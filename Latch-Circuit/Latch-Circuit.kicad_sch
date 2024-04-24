@@ -175,14 +175,53 @@
         )
       )
     )
-    (symbol "ProjectEV:Connector_SM02B-PASS-1-TB" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "ProjectEV:Connector_B2P-VH" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "B2P-VH" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "ProjectEV:Connector_B2P-VH" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Connector_B2P-VH_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "ProjectEV:Connector_BM02B-PASS-1-TF" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 2.54 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SM02B-PASS-1-TB" (at 1.27 -5.08 0)
+      (property "Value" "BM02B-PASS-1-TF" (at 1.27 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 0 0 0)
+      (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 0)
@@ -191,7 +230,7 @@
       (property "ki_fp_filters" "Connector*:*_1x??-1MP*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Connector_SM02B-PASS-1-TB_1_1"
+      (symbol "Connector_BM02B-PASS-1-TF_1_1"
         (rectangle (start -1.27 -2.413) (end 0 -2.667)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -244,14 +283,14 @@
         )
       )
     )
-    (symbol "ProjectEV:Connector_SM03B-PASS-1-TB" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "ProjectEV:Connector_BM03B-PASS-1-TF" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 2.54 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SM03B-PASS-1-TB" (at 1.27 -5.08 0)
+      (property "Value" "BM03B-PASS-1-TF" (at 1.27 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "ProjectEV:Connector_SM03B-PASS-1-TB" (at 0 0 0)
+      (property "Footprint" "ProjectEV:Connector_BM03B-PASS-1-TF" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 0)
@@ -260,7 +299,7 @@
       (property "ki_fp_filters" "Connector*:*_1x??-1MP*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Connector_SM03B-PASS-1-TB_1_1"
+      (symbol "Connector_BM03B-PASS-1-TF_1_1"
         (rectangle (start -1.27 -2.413) (end 0 -2.667)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -318,45 +357,6 @@
         (pin passive line (at 0 -8.89 90) (length 4.318)
           (name "MountPin" (effects (font (size 1.27 1.27))))
           (number "MP2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "ProjectEV:Connector_VH_2pin_Side" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "VH_2pin_Side" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "ProjectEV:Connector_S2P-VH" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Connector_VH_2pin_Side_1_1"
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2580,7 +2580,7 @@
   (symbol (lib_id "ProjectEV:C") (at 154.94 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02a2af42-dd44-4d95-9fc4-d480f34ffcba)
-    (property "Reference" "C1" (at 157.48 129.54 0)
+    (property "Reference" "C5" (at 157.48 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 157.48 132.08 0)
@@ -2600,7 +2600,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C1") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2609,7 +2609,7 @@
   (symbol (lib_id "power:GND") (at 342.9 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 036b7f50-874a-4563-b159-7388800111d6)
-    (property "Reference" "#PWR043" (at 342.9 251.46 0)
+    (property "Reference" "#PWR034" (at 342.9 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 250.19 0)
@@ -2625,7 +2625,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2634,7 +2634,7 @@
   (symbol (lib_id "Device:LED") (at 259.08 186.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0863b224-5120-411f-8255-bc005794486d)
-    (property "Reference" "D3" (at 262.89 187.0075 90)
+    (property "Reference" "D7" (at 262.89 187.0075 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 262.89 189.5475 90)
@@ -2651,7 +2651,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "D3") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2660,7 +2660,7 @@
   (symbol (lib_id "ProjectEV:R") (at 165.1 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09a88df4-12ba-48b7-bbef-efcf089727a4)
-    (property "Reference" "R3" (at 166.37 109.22 0)
+    (property "Reference" "R10" (at 166.37 109.22 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 166.37 111.76 0)
@@ -2680,7 +2680,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2689,7 +2689,7 @@
   (symbol (lib_id "ProjectEV:Transistor_PJA3439-AU_R1_000A1") (at 109.22 99.06 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b4fea63-939e-4f00-a92d-c9634ebb01ac)
-    (property "Reference" "Q6" (at 109.22 90.17 90)
+    (property "Reference" "Q3" (at 109.22 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJA3439-AU_R1_000A1" (at 109.22 92.71 90)
@@ -2707,7 +2707,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q6") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -2716,7 +2716,7 @@
   (symbol (lib_id "power:GND") (at 38.1 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b6aa37b-535d-4725-8cd9-b1249b9ff790)
-    (property "Reference" "#PWR09" (at 38.1 22.86 0)
+    (property "Reference" "#PWR01" (at 38.1 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 24.13 0)
@@ -2732,63 +2732,35 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 38.1 190.5 0) (mirror y) (unit 1)
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 368.3 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0d27d77f-e0e4-4c52-87fa-2c42399980cf)
-    (property "Reference" "J6" (at 35.56 190.5 0)
+    (uuid 0ec3f393-7f69-400a-af13-345096e578e3)
+    (property "Reference" "J8" (at 370.84 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SM02B-PASS-1-TB" (at 35.56 193.04 0)
+    (property "Value" "BM02B-PASS-1-TF" (at 370.84 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 38.1 190.5 0)
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 368.3 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 38.1 190.5 0)
+    (property "Datasheet" "~" (at 368.3 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 404fcf08-c285-4eca-88e9-acf140008bd5))
-    (pin "MP1" (uuid 3f522574-4450-457c-8a01-517e7ed13d97))
-    (pin "MP2" (uuid 33860f64-adb8-4084-b254-c8ebba1c045f))
-    (pin "1" (uuid 458cae34-8a66-45a4-8eb2-691c5edb227d))
+    (pin "MP1" (uuid f6f0fe25-c465-4d7e-9d41-d057f8adbcce))
+    (pin "1" (uuid 93e88e97-a807-4629-a805-09e20756dc9d))
+    (pin "MP2" (uuid d9130c06-9c3c-4d95-aa7b-aeab84a88665))
+    (pin "2" (uuid f30d9a17-4c24-4c5f-aaca-4ad23b603426))
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 38.1 38.1 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0f533a33-3d82-4924-9eee-7b4e9699ff74)
-    (property "Reference" "J5" (at 35.56 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SM02B-PASS-1-TB" (at 35.56 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 38.1 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 38.1 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 7889555b-e713-4365-b56e-56bfa2319a87))
-    (pin "MP1" (uuid 593725d6-4e55-46e8-94a8-cafadfbf1cbf))
-    (pin "MP2" (uuid 8f25255c-ae3b-4d8f-93ed-153e401d9287))
-    (pin "1" (uuid cd6b0f4c-ff14-49ca-8263-02f11cf64d86))
-    (instances
-      (project "Latch-Circuit"
-        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J5") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2797,7 +2769,7 @@
   (symbol (lib_id "ProjectEV:R") (at 147.32 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 111410af-ec63-4648-8723-4e8af03da577)
-    (property "Reference" "R1" (at 148.59 119.38 0)
+    (property "Reference" "R8" (at 148.59 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 148.59 121.92 0)
@@ -2817,7 +2789,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R1") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2826,7 +2798,7 @@
   (symbol (lib_id "ProjectEV:C") (at 88.9 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14ca3a4e-5434-41c1-902f-29aff34f3b9c)
-    (property "Reference" "C3" (at 91.44 48.26 0)
+    (property "Reference" "C2" (at 91.44 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 91.44 50.8 0)
@@ -2846,7 +2818,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2855,7 +2827,7 @@
   (symbol (lib_id "ProjectEV:R") (at 304.8 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14f66f7c-054c-420d-a73b-0b1334137435)
-    (property "Reference" "R17" (at 306.07 185.42 0)
+    (property "Reference" "R29" (at 306.07 185.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 306.07 187.96 0)
@@ -2875,7 +2847,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R17") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2884,7 +2856,7 @@
   (symbol (lib_id "power:GND") (at 38.1 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17659c0c-749a-4cfb-ac0b-3824ed05192c)
-    (property "Reference" "#PWR025" (at 38.1 208.28 0)
+    (property "Reference" "#PWR010" (at 38.1 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 207.01 0)
@@ -2900,7 +2872,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2934,7 +2906,7 @@
   (symbol (lib_id "ProjectEV:D_1N4448WQ-7-F") (at 148.59 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1942ad98-2d45-42b4-87bc-6d4eb771170d)
-    (property "Reference" "D5" (at 148.59 54.61 0)
+    (property "Reference" "D3" (at 148.59 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4448WQ-7-F" (at 148.59 57.15 0)
@@ -2951,7 +2923,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2960,7 +2932,7 @@
   (symbol (lib_id "ProjectEV:R") (at 119.38 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2008ba3e-7d98-44fc-baca-e16e904b2e2c)
-    (property "Reference" "R31" (at 120.65 99.06 0)
+    (property "Reference" "R6" (at 120.65 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 120.65 101.6 0)
@@ -2980,7 +2952,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R31") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2989,7 +2961,7 @@
   (symbol (lib_id "ProjectEV:R") (at 109.22 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20a090b5-7b1b-4beb-8f41-0a68685fd60d)
-    (property "Reference" "R7" (at 110.49 109.22 0)
+    (property "Reference" "R5" (at 110.49 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 110.49 111.76 0)
@@ -3009,7 +2981,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R7") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3018,7 +2990,7 @@
   (symbol (lib_id "power:GND") (at 360.68 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20b4c589-468e-498b-80d0-6a08d9aa58df)
-    (property "Reference" "#PWR041" (at 354.33 66.04 0)
+    (property "Reference" "#PWR035" (at 354.33 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 356.87 66.04 90)
@@ -3034,7 +3006,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3043,7 +3015,7 @@
   (symbol (lib_id "ProjectEV:Transistor_2N7002K-AU") (at 302.26 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22813a76-d694-414c-ab8c-72c0550a00e5)
-    (property "Reference" "Q12" (at 308.61 125.73 0)
+    (property "Reference" "Q10" (at 308.61 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K-AU" (at 308.61 128.27 0)
@@ -3061,7 +3033,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q12") (unit 1)
+          (reference "Q10") (unit 1)
         )
       )
     )
@@ -3070,7 +3042,7 @@
   (symbol (lib_id "power:GND") (at 38.1 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23b3ac64-5379-4df9-af0f-af1cd8fb12c8)
-    (property "Reference" "#PWR015" (at 38.1 132.08 0)
+    (property "Reference" "#PWR06" (at 38.1 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 130.81 0)
@@ -3086,7 +3058,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3095,7 +3067,7 @@
   (symbol (lib_id "power:GND") (at 119.38 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 246b2d8c-76bd-453d-9cc3-665a3daf8fe8)
-    (property "Reference" "#PWR039" (at 119.38 123.19 0)
+    (property "Reference" "#PWR021" (at 119.38 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 121.92 0)
@@ -3111,7 +3083,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3145,7 +3117,7 @@
   (symbol (lib_id "power:GND") (at 38.1 181.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26b4a729-c934-4722-96f3-e92fd254b632)
-    (property "Reference" "#PWR024" (at 38.1 175.26 0)
+    (property "Reference" "#PWR09" (at 38.1 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 176.53 0)
@@ -3161,7 +3133,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3170,7 +3142,7 @@
   (symbol (lib_id "power:+12V") (at 93.98 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 287963ce-2e13-4e6b-9579-ac3554ff8c3e)
-    (property "Reference" "#PWR05" (at 93.98 100.33 0)
+    (property "Reference" "#PWR019" (at 93.98 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 93.98 91.44 0)
@@ -3186,7 +3158,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3195,7 +3167,7 @@
   (symbol (lib_id "ProjectEV:R") (at 91.44 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28fe1afc-f77b-495d-a52f-c7a4fcd51ed3)
-    (property "Reference" "R6" (at 92.71 129.54 0)
+    (property "Reference" "R3" (at 92.71 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 92.71 132.08 0)
@@ -3215,7 +3187,35 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R6") (unit 1)
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 368.3 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2bfcfd40-bb01-4b5d-abca-9e9f70c20e19)
+    (property "Reference" "J10" (at 370.84 139.7 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BM02B-PASS-1-TF" (at 370.84 142.24 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 368.3 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 368.3 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "MP1" (uuid 75b0e94a-9a3a-4ecf-83e0-a7c738532247))
+    (pin "1" (uuid 264705ec-9092-4068-9dcf-702cdc09abc4))
+    (pin "MP2" (uuid 7f5e6338-83b9-4167-974d-70f5d6a172f4))
+    (pin "2" (uuid e3a81fb0-f3d4-4da3-92d7-bc90125a493e))
+    (instances
+      (project "Latch-Circuit"
+        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -3224,7 +3224,7 @@
   (symbol (lib_id "ProjectEV:R") (at 147.32 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c148c9b-015b-4595-b590-945fd59fc467)
-    (property "Reference" "R2" (at 148.59 129.54 0)
+    (property "Reference" "R9" (at 148.59 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 148.59 132.08 0)
@@ -3244,7 +3244,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R2") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3253,7 +3253,7 @@
   (symbol (lib_id "power:GND") (at 45.72 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c24125f-7d3b-42bd-9a00-22403189b95b)
-    (property "Reference" "#PWR02" (at 52.07 40.64 0)
+    (property "Reference" "#PWR013" (at 52.07 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 40.64 90)
@@ -3269,7 +3269,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3278,7 +3278,7 @@
   (symbol (lib_id "ProjectEV:Transistor_2N7002K-AU") (at 302.26 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c61719d-ab29-4d36-8637-5b60333dfa46)
-    (property "Reference" "Q5" (at 308.61 201.93 0)
+    (property "Reference" "Q11" (at 308.61 201.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K-AU" (at 308.61 204.47 0)
@@ -3296,7 +3296,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q5") (unit 1)
+          (reference "Q11") (unit 1)
         )
       )
     )
@@ -3333,7 +3333,7 @@
   (symbol (lib_id "ProjectEV:C") (at 294.64 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 303af832-027f-42a2-9444-85993e36f448)
-    (property "Reference" "C6" (at 297.18 205.74 0)
+    (property "Reference" "C11" (at 297.18 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 297.18 208.28 0)
@@ -3353,7 +3353,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C6") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3362,7 +3362,7 @@
   (symbol (lib_id "power:GND") (at 157.48 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30b4558a-617c-445e-ac64-7f84a0d46164)
-    (property "Reference" "#PWR034" (at 163.83 48.26 0)
+    (property "Reference" "#PWR022" (at 163.83 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 48.26 90)
@@ -3378,7 +3378,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3387,7 +3387,7 @@
   (symbol (lib_id "power:GND") (at 88.9 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 312e8a8d-9f12-42ee-92db-448cb36502a4)
-    (property "Reference" "#PWR04" (at 88.9 62.23 0)
+    (property "Reference" "#PWR018" (at 88.9 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 60.96 0)
@@ -3403,7 +3403,36 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ProjectEV:Connector_BM03B-PASS-1-TF") (at 38.1 78.74 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 312f4868-b45a-440c-99f8-ded35350c2d2)
+    (property "Reference" "J2" (at 35.56 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BM03B-PASS-1-TF" (at 35.56 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ProjectEV:Connector_BM03B-PASS-1-TF" (at 38.1 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "MP2" (uuid fa6c0f1b-4cd1-4d9c-b3f2-1ba7bc569ec8))
+    (pin "2" (uuid 3bd593fe-a657-4314-917c-f8f2edbedc29))
+    (pin "1" (uuid 8d6e047f-cffe-4004-93e4-c3d894a88a52))
+    (pin "3" (uuid c5cc3f09-d351-4e92-8ff4-82885596a644))
+    (pin "MP1" (uuid e5b0f65a-1583-4ce9-bfab-4e1c45238340))
+    (instances
+      (project "Latch-Circuit"
+        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3412,7 +3441,7 @@
   (symbol (lib_id "power:GND") (at 38.1 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31ccdf58-152c-4cfc-80c7-90d5a387bed6)
-    (property "Reference" "#PWR022" (at 38.1 170.18 0)
+    (property "Reference" "#PWR08" (at 38.1 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 168.91 0)
@@ -3428,7 +3457,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3437,7 +3466,7 @@
   (symbol (lib_id "power:GND") (at 38.1 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 339e8286-9836-44d2-98d9-68ddd3b5037d)
-    (property "Reference" "#PWR027" (at 38.1 246.38 0)
+    (property "Reference" "#PWR012" (at 38.1 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 245.11 0)
@@ -3453,33 +3482,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR027") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ProjectEV:Connector_VH_2pin_Side") (at 368.3 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3de03849-0b9c-4810-b715-483e9407eea9)
-    (property "Reference" "J2" (at 368.3 31.75 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "VH_2pin_Side" (at 368.3 34.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "ProjectEV:Connector_S2P-VH" (at 368.3 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 368.3 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0ac38677-b0dc-400a-af26-d7342b9bc651))
-    (pin "2" (uuid a4792807-7806-40ae-a8c8-43f80f4a1799))
-    (instances
-      (project "Latch-Circuit"
-        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J2") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3488,7 +3491,7 @@
   (symbol (lib_id "ProjectEV:Transistor_PJA3439-AU_R1_000A1") (at 248.92 99.06 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f60e694-3836-468d-a502-e19640ce9975)
-    (property "Reference" "Q11" (at 248.92 90.17 90)
+    (property "Reference" "Q8" (at 248.92 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJA3439-AU_R1_000A1" (at 248.92 92.71 90)
@@ -3506,7 +3509,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q11") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -3515,7 +3518,7 @@
   (symbol (lib_id "power:GND") (at 248.92 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f623afd-eb57-4400-b1ce-a08fc0b83958)
-    (property "Reference" "#PWR08" (at 248.92 219.71 0)
+    (property "Reference" "#PWR028" (at 248.92 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 218.44 0)
@@ -3531,7 +3534,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3540,7 +3543,7 @@
   (symbol (lib_id "ProjectEV:R") (at 86.36 127 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 423a6cc5-30d2-466b-ae73-5c5d039676fa)
-    (property "Reference" "R10" (at 86.36 119.38 90)
+    (property "Reference" "R2" (at 86.36 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 86.36 121.92 90)
@@ -3560,7 +3563,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R10") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3569,7 +3572,7 @@
   (symbol (lib_id "ProjectEV:R") (at 287.02 177.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43428a04-d33b-493b-af0f-500f0176051f)
-    (property "Reference" "R16" (at 288.29 175.26 0)
+    (property "Reference" "R25" (at 288.29 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 288.29 177.8 0)
@@ -3589,7 +3592,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R16") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -3623,7 +3626,7 @@
   (symbol (lib_id "Device:LED") (at 119.38 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dafe864-7e0d-404a-a153-99a49b687cb7)
-    (property "Reference" "D4" (at 123.19 110.8075 90)
+    (property "Reference" "D2" (at 123.19 110.8075 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 123.19 113.3475 90)
@@ -3640,7 +3643,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "D4") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3649,7 +3652,7 @@
   (symbol (lib_id "power:GND") (at 368.3 92.71 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 505e6c6e-9db5-4891-9538-6dcae7ab913f)
-    (property "Reference" "#PWR030" (at 368.3 86.36 0)
+    (property "Reference" "#PWR040" (at 368.3 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.3 87.63 0)
@@ -3665,7 +3668,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -3674,7 +3677,7 @@
   (symbol (lib_id "ProjectEV:R") (at 241.3 177.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5199fe56-9352-4216-b224-47858c5dcdda)
-    (property "Reference" "R13" (at 242.57 175.26 0)
+    (property "Reference" "R17" (at 242.57 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 242.57 177.8 0)
@@ -3694,7 +3697,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R13") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3703,7 +3706,7 @@
   (symbol (lib_id "power:GND") (at 368.3 74.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59523106-e7f2-40df-a284-69aa3fba090a)
-    (property "Reference" "#PWR029" (at 368.3 81.28 0)
+    (property "Reference" "#PWR039" (at 368.3 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.3 80.01 0)
@@ -3719,7 +3722,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -3728,7 +3731,7 @@
   (symbol (lib_id "power:GND") (at 368.3 151.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59c75a8b-c6e8-4502-aa1d-9ed2244b2d0f)
-    (property "Reference" "#PWR033" (at 368.3 157.48 0)
+    (property "Reference" "#PWR043" (at 368.3 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.3 156.21 0)
@@ -3744,7 +3747,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -3753,7 +3756,7 @@
   (symbol (lib_id "ProjectEV:Transistor_2N7002K-AU") (at 246.38 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b39514a-528f-47f6-9535-23c1b675b758)
-    (property "Reference" "Q10" (at 241.3 120.65 0)
+    (property "Reference" "Q6" (at 241.3 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K-AU" (at 232.41 123.19 0)
@@ -3771,7 +3774,35 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q10") (unit 1)
+          (reference "Q6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 38.1 190.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5dc6fff6-216d-4f2a-92bc-95b42b185bf1)
+    (property "Reference" "J5" (at 35.56 190.5 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BM02B-PASS-1-TF" (at 35.56 193.04 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 38.1 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "MP1" (uuid 86b02dfc-e2e5-4fb1-ad46-401a33703997))
+    (pin "1" (uuid b41c7a2f-91ad-46b9-8873-fb724584307f))
+    (pin "MP2" (uuid d9169165-0113-42ee-a277-9d22a524ccba))
+    (pin "2" (uuid 98c13a8b-c5b1-494d-979d-8593cc51a0ae))
+    (instances
+      (project "Latch-Circuit"
+        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3780,7 +3811,7 @@
   (symbol (lib_id "power:GND") (at 165.1 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5de0a17f-a828-4d50-b215-04ffa56b72d2)
-    (property "Reference" "#PWR017" (at 165.1 143.51 0)
+    (property "Reference" "#PWR023" (at 165.1 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 142.24 0)
@@ -3796,7 +3827,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3831,10 +3862,36 @@
     )
   )
 
+  (symbol (lib_id "ProjectEV:Connector_B2P-VH") (at 368.3 38.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 61dcd448-9b37-40df-958f-603ab1bb1eb2)
+    (property "Reference" "J7" (at 370.84 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "B2P-VH" (at 370.84 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ProjectEV:Connector_B2P-VH" (at 368.3 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 368.3 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f9954b14-07ef-4a8f-bea4-eb03819e23e4))
+    (pin "2" (uuid 56c6a414-1e06-49a2-aaf6-e58d45ea8117))
+    (instances
+      (project "Latch-Circuit"
+        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
+          (reference "J7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 63.5 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6255e334-c1e9-49dd-bc61-2d46b52e100b)
-    (property "Reference" "#PWR03" (at 63.5 67.31 0)
+    (property "Reference" "#PWR016" (at 63.5 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 66.04 0)
@@ -3850,7 +3907,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3859,7 +3916,7 @@
   (symbol (lib_id "power:GND") (at 38.1 219.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62a9fd61-edc4-4f9f-be50-57ec0ea3f612)
-    (property "Reference" "#PWR026" (at 38.1 213.36 0)
+    (property "Reference" "#PWR011" (at 38.1 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 214.63 0)
@@ -3875,7 +3932,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3884,7 +3941,7 @@
   (symbol (lib_id "ProjectEV:R") (at 304.8 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 651dd711-2f9c-477c-b698-0170085f1e82)
-    (property "Reference" "R25" (at 306.07 109.22 0)
+    (property "Reference" "R28" (at 306.07 109.22 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 306.07 111.76 0)
@@ -3904,7 +3961,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R25") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -3913,7 +3970,7 @@
   (symbol (lib_id "ProjectEV:R") (at 322.58 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6668c910-0a7a-4e74-9101-c85411ed1bad)
-    (property "Reference" "R26" (at 322.58 99.06 90)
+    (property "Reference" "R30" (at 322.58 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 322.58 101.6 90)
@@ -3933,7 +3990,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R26") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -3942,7 +3999,7 @@
   (symbol (lib_id "power:GND") (at 368.3 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 670a9e88-5b4d-49d9-ac92-5fcedb3f782b)
-    (property "Reference" "#PWR031" (at 368.3 119.38 0)
+    (property "Reference" "#PWR041" (at 368.3 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.3 118.11 0)
@@ -3958,7 +4015,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3967,7 +4024,7 @@
   (symbol (lib_id "ProjectEV:Transistor_2N7002K-AU") (at 162.56 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68b0563f-45c8-45e9-94ed-887940f95100)
-    (property "Reference" "Q1" (at 168.91 125.73 0)
+    (property "Reference" "Q4" (at 168.91 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K-AU" (at 168.91 128.27 0)
@@ -3985,7 +4042,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q1") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -3994,7 +4051,7 @@
   (symbol (lib_id "ProjectEV:R") (at 63.5 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69abbc28-1235-4017-9afe-72f0e4265d43)
-    (property "Reference" "R5" (at 64.77 53.34 0)
+    (property "Reference" "R1" (at 64.77 53.34 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 64.77 55.88 0)
@@ -4014,7 +4071,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4023,7 +4080,7 @@
   (symbol (lib_id "power:GND") (at 38.1 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a7eb6df-7c47-44ec-8ec6-066409beaa4d)
-    (property "Reference" "#PWR010" (at 38.1 55.88 0)
+    (property "Reference" "#PWR02" (at 38.1 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 54.61 0)
@@ -4039,7 +4096,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4048,7 +4105,7 @@
   (symbol (lib_id "ProjectEV:R") (at 287.02 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b1cf312-54f3-4ce8-9893-017066063a04)
-    (property "Reference" "R23" (at 288.29 129.54 0)
+    (property "Reference" "R24" (at 288.29 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 288.29 132.08 0)
@@ -4068,7 +4125,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R23") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -4077,7 +4134,7 @@
   (symbol (lib_id "ProjectEV:Transistor_PJA3439-AU_R1_000A1") (at 304.8 99.06 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d65aef6-71dc-47c5-ad27-6ca57f95c07a)
-    (property "Reference" "Q13" (at 304.8 90.17 90)
+    (property "Reference" "Q12" (at 304.8 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJA3439-AU_R1_000A1" (at 304.8 92.71 90)
@@ -4095,7 +4152,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q13") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -4104,7 +4161,7 @@
   (symbol (lib_id "power:+12V") (at 88.9 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7201414d-7ccc-40b3-ba55-d844ac80f631)
-    (property "Reference" "#PWR01" (at 88.9 41.91 0)
+    (property "Reference" "#PWR017" (at 88.9 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 88.9 33.02 0)
@@ -4120,7 +4177,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4129,7 +4186,7 @@
   (symbol (lib_id "ProjectEV:R") (at 248.92 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73edada4-6b1d-4694-a764-3193fdf311fe)
-    (property "Reference" "R14" (at 250.19 185.42 0)
+    (property "Reference" "R19" (at 250.19 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 250.19 187.96 0)
@@ -4149,7 +4206,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R14") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -4158,7 +4215,7 @@
   (symbol (lib_id "power:GND") (at 45.72 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74458e1e-eabd-4407-899c-d9f3e76e194d)
-    (property "Reference" "#PWR011" (at 52.07 81.28 0)
+    (property "Reference" "#PWR014" (at 52.07 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 81.28 90)
@@ -4174,7 +4231,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4183,7 +4240,7 @@
   (symbol (lib_id "power:GND") (at 248.92 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76429a1e-cbd3-432a-8958-b05353a741f6)
-    (property "Reference" "#PWR019" (at 248.92 143.51 0)
+    (property "Reference" "#PWR027" (at 248.92 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 142.24 0)
@@ -4199,7 +4256,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4208,7 +4265,7 @@
   (symbol (lib_id "ProjectEV:R") (at 226.06 127 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 796eaf4f-a337-4f15-b32a-fc888391ced4)
-    (property "Reference" "R18" (at 226.06 119.38 90)
+    (property "Reference" "R12" (at 226.06 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 226.06 121.92 90)
@@ -4228,7 +4285,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R18") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4237,7 +4294,7 @@
   (symbol (lib_id "ProjectEV:C") (at 238.76 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79787c7e-2bf5-4ce5-9b80-fa43786cfa6a)
-    (property "Reference" "C7" (at 241.3 129.54 0)
+    (property "Reference" "C6" (at 241.3 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 241.3 132.08 0)
@@ -4257,7 +4314,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4266,7 +4323,7 @@
   (symbol (lib_id "ProjectEV:R") (at 101.6 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e6eeac7-1278-4ab3-a272-ca63dcf5b42b)
-    (property "Reference" "R9" (at 102.87 99.06 0)
+    (property "Reference" "R4" (at 102.87 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 102.87 101.6 0)
@@ -4286,7 +4343,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R9") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4295,7 +4352,7 @@
   (symbol (lib_id "power:GND") (at 259.08 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f0ed611-93b7-4b61-b875-e98c16b28622)
-    (property "Reference" "#PWR038" (at 259.08 199.39 0)
+    (property "Reference" "#PWR031" (at 259.08 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 198.12 0)
@@ -4311,7 +4368,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4320,7 +4377,7 @@
   (symbol (lib_id "ProjectEV:C") (at 294.64 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f5e9793-1aa8-478e-beb1-dbdfbc8b93fa)
-    (property "Reference" "C8" (at 297.18 129.54 0)
+    (property "Reference" "C9" (at 297.18 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 297.18 132.08 0)
@@ -4340,7 +4397,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -4349,7 +4406,7 @@
   (symbol (lib_id "power:GND") (at 38.1 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fdfd153-3f5a-4472-b39f-049a3875e0e0)
-    (property "Reference" "#PWR012" (at 38.1 96.52 0)
+    (property "Reference" "#PWR04" (at 38.1 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 95.25 0)
@@ -4365,7 +4422,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4374,7 +4431,7 @@
   (symbol (lib_id "power:GND") (at 38.1 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8054c9dc-f175-4626-a9c6-139b8498be0e)
-    (property "Reference" "#PWR014" (at 38.1 99.06 0)
+    (property "Reference" "#PWR05" (at 38.1 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 100.33 0)
@@ -4390,7 +4447,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4399,7 +4456,7 @@
   (symbol (lib_id "power:GND") (at 208.28 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81f9bb16-6559-485d-b547-271199ca94c7)
-    (property "Reference" "#PWR035" (at 214.63 48.26 0)
+    (property "Reference" "#PWR024" (at 214.63 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 48.26 90)
@@ -4415,7 +4472,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4424,7 +4481,7 @@
   (symbol (lib_id "power:GND") (at 259.08 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 827ec4f7-2ff5-4231-9a26-6353a57f627a)
-    (property "Reference" "#PWR036" (at 265.43 48.26 0)
+    (property "Reference" "#PWR029" (at 265.43 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 48.26 90)
@@ -4440,7 +4497,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4449,7 +4506,7 @@
   (symbol (lib_id "power:GND") (at 38.1 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 867491ce-277a-4239-8d8d-02c05ba3f389)
-    (property "Reference" "#PWR013" (at 38.1 60.96 0)
+    (property "Reference" "#PWR03" (at 38.1 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 62.23 0)
@@ -4465,7 +4522,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -4503,7 +4560,7 @@
   (symbol (lib_id "ProjectEV:C") (at 99.06 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 871a71d2-cb58-4ad9-b5f6-71718cd041f3)
-    (property "Reference" "C4" (at 101.6 129.54 0)
+    (property "Reference" "C3" (at 101.6 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 101.6 132.08 0)
@@ -4523,7 +4580,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4532,7 +4589,7 @@
   (symbol (lib_id "ProjectEV:Transistor_PJA3439-AU_R1_000A1") (at 248.92 175.26 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 888c0cb1-97fd-4484-a627-8d8ed16d654c)
-    (property "Reference" "Q8" (at 248.92 166.37 90)
+    (property "Reference" "Q9" (at 248.92 166.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJA3439-AU_R1_000A1" (at 248.92 168.91 90)
@@ -4550,7 +4607,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q8") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -4584,7 +4641,7 @@
   (symbol (lib_id "power:GND") (at 109.22 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bd3599b-d2b8-453e-8948-f9cc4c655a67)
-    (property "Reference" "#PWR07" (at 109.22 143.51 0)
+    (property "Reference" "#PWR020" (at 109.22 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 142.24 0)
@@ -4600,7 +4657,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4638,7 +4695,7 @@
   (symbol (lib_id "ProjectEV:R") (at 231.14 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e914661-7d3e-4cf5-98da-2eeea472dafd)
-    (property "Reference" "R19" (at 232.41 129.54 0)
+    (property "Reference" "R14" (at 232.41 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 232.41 132.08 0)
@@ -4658,35 +4715,35 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R19") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 38.1 228.6 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 913a7c7b-a81e-439b-aa1d-c65a97313df2)
-    (property "Reference" "J7" (at 35.56 228.6 0)
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 38.1 228.6 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8ebc22b7-38a1-429f-8bd6-a0fbc8a7523d)
+    (property "Reference" "J6" (at 35.56 228.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SM02B-PASS-1-TB" (at 35.56 231.14 0)
+    (property "Value" "BM02B-PASS-1-TF" (at 35.56 231.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 38.1 228.6 0)
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 38.1 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a72d78e1-1d15-4878-a2a7-85fe9ca1a978))
-    (pin "MP1" (uuid e89a88b4-0e71-425c-95c3-6261d9bc8013))
-    (pin "MP2" (uuid 2ea0fe04-2591-4e5c-afbe-d87444f2d313))
-    (pin "1" (uuid fce1816d-909e-4d0b-b0e2-330a7146bb94))
+    (pin "MP1" (uuid 5517fcd8-7ab9-4b06-a7c3-3c7f188c89c2))
+    (pin "1" (uuid 7b94462e-4d63-4308-8d3b-49d0a3373945))
+    (pin "MP2" (uuid 5501e570-05da-4e43-b24a-e8744cefa473))
+    (pin "2" (uuid 65e1a0cc-8427-4662-90e4-aa7327178395))
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -4695,7 +4752,7 @@
   (symbol (lib_id "ProjectEV:D_1N4448WQ-7-F") (at 199.39 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91daaa5c-d1ac-49a4-b944-adecd5974ba7)
-    (property "Reference" "D6" (at 199.39 54.61 0)
+    (property "Reference" "D4" (at 199.39 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4448WQ-7-F" (at 199.39 57.15 0)
@@ -4712,32 +4769,31 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "D6") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "ProjectEV:Connector_SM03B-PASS-1-TB") (at 38.1 78.74 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9b487416-a548-4b5b-82bf-c7900c4f0a2e)
-    (property "Reference" "J4" (at 35.56 77.47 0)
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 38.1 152.4 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 92e4e9f0-ce13-4d42-8a0e-6387a5cbe159)
+    (property "Reference" "J4" (at 35.56 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SM03B-PASS-1-TB" (at 35.56 80.01 0)
+    (property "Value" "BM02B-PASS-1-TF" (at 35.56 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ProjectEV:Connector_SM03B-PASS-1-TB" (at 38.1 78.74 0)
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 38.1 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 38.1 78.74 0)
+    (property "Datasheet" "~" (at 38.1 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 6d4d4801-1fd4-4ff0-9f9f-7b410d2fd8d9))
-    (pin "1" (uuid 80f6e74e-74ba-4249-90e1-ad450daa3448))
-    (pin "MP1" (uuid 23126edc-010a-4cff-b0ee-9b060717cb79))
-    (pin "MP2" (uuid 121e2034-e1b9-4c32-bbd5-c3dc8f49f2ef))
-    (pin "2" (uuid 82a250f6-ffa0-4393-9775-756e1615f3e9))
+    (pin "MP1" (uuid 51d0d7f3-d884-4763-a477-1908ce57317e))
+    (pin "1" (uuid 150ad17d-db76-4d09-b325-548af74c1f8d))
+    (pin "MP2" (uuid 3a885602-b979-4442-8751-3d146fd28e38))
+    (pin "2" (uuid d3c3a2f7-a448-4bda-9ec3-4569fcbd211a))
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
@@ -4747,38 +4803,10 @@
     )
   )
 
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 368.3 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9cf13e13-0962-4558-8bce-67eaeac4488e)
-    (property "Reference" "J9" (at 370.84 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SM02B-PASS-1-TB" (at 370.84 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 368.3 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 368.3 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 55c19810-9deb-492e-bb41-56dabe68865d))
-    (pin "MP1" (uuid 40df300a-02e7-4471-bec4-f5d23152a546))
-    (pin "MP2" (uuid c6db40f0-d239-42bd-b3bc-6c4ac22c2bd8))
-    (pin "1" (uuid b101e7a5-5917-477a-941d-4a78a527665a))
-    (instances
-      (project "Latch-Circuit"
-        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J9") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "ProjectEV:C") (at 88.9 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ed7e863-180a-4797-be9f-14acab441edb)
-    (property "Reference" "C2" (at 91.44 40.64 0)
+    (property "Reference" "C1" (at 91.44 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 91.44 43.18 0)
@@ -4798,7 +4826,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -4807,7 +4835,7 @@
   (symbol (lib_id "ProjectEV:R") (at 231.14 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fcb1064-87fc-43c5-81fd-372e5fe56aa9)
-    (property "Reference" "R12" (at 232.41 205.74 0)
+    (property "Reference" "R15" (at 232.41 205.74 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 232.41 208.28 0)
@@ -4827,7 +4855,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R12") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4836,7 +4864,7 @@
   (symbol (lib_id "ProjectEV:R") (at 248.92 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ff26e8f-912a-4791-9a3d-c44c1079576a)
-    (property "Reference" "R20" (at 250.19 109.22 0)
+    (property "Reference" "R18" (at 250.19 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 250.19 111.76 0)
@@ -4856,7 +4884,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R20") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4865,7 +4893,7 @@
   (symbol (lib_id "ProjectEV:R") (at 226.06 203.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0fe344c-3c05-49f0-900d-236f8404ad6e)
-    (property "Reference" "R11" (at 226.06 195.58 90)
+    (property "Reference" "R13" (at 226.06 195.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 226.06 198.12 90)
@@ -4885,7 +4913,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4894,7 +4922,7 @@
   (symbol (lib_id "ProjectEV:R") (at 287.02 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1e29542-2878-45c2-9fb7-a5b4aecbd299)
-    (property "Reference" "R24" (at 288.29 99.06 0)
+    (property "Reference" "R22" (at 288.29 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 288.29 101.6 0)
@@ -4914,7 +4942,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R24") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4948,38 +4976,10 @@
     )
   )
 
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 38.1 152.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a2536728-9608-4adf-976f-8a521ad9e894)
-    (property "Reference" "J3" (at 35.56 152.4 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SM02B-PASS-1-TB" (at 35.56 154.94 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 38.1 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 38.1 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid c20a2925-c25d-435f-8d6b-e9ee6592d2aa))
-    (pin "MP1" (uuid fb13eb4a-6cb3-4ff3-8237-4a4c793395ea))
-    (pin "MP2" (uuid 6e7f14ea-08bf-4f55-9093-39e63b1f10d8))
-    (pin "1" (uuid 9ef42d79-4ef2-4a01-8735-737c8fcdd487))
-    (instances
-      (project "Latch-Circuit"
-        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "ProjectEV:R") (at 287.02 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2d972d3-4eb1-4aff-a891-ff2a092180da)
-    (property "Reference" "R22" (at 288.29 119.38 0)
+    (property "Reference" "R23" (at 288.29 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 288.29 121.92 0)
@@ -4999,7 +4999,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -5008,7 +5008,7 @@
   (symbol (lib_id "power:GND") (at 304.8 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a70a712d-4e0e-4e1c-9e8e-583682795fd5)
-    (property "Reference" "#PWR021" (at 304.8 143.51 0)
+    (property "Reference" "#PWR032" (at 304.8 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 142.24 0)
@@ -5024,7 +5024,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5033,7 +5033,7 @@
   (symbol (lib_id "ProjectEV:Transistor_DMP3098LQ-7") (at 63.5 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a73396bb-286b-491b-9207-a4f608d8dc8b)
-    (property "Reference" "Q3" (at 63.5 31.75 90)
+    (property "Reference" "Q1" (at 63.5 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DMP3098LQ-7" (at 63.5 34.29 90)
@@ -5051,35 +5051,35 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q3") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 368.3 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a849ade8-ec0d-43a5-8004-7d0a973eb715)
-    (property "Reference" "J8" (at 370.84 63.5 0)
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 38.1 114.3 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a877ddb5-4072-43b2-a1e9-80bd5b7b3495)
+    (property "Reference" "J3" (at 35.56 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SM02B-PASS-1-TB" (at 370.84 66.04 0)
+    (property "Value" "BM02B-PASS-1-TF" (at 35.56 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 368.3 63.5 0)
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 38.1 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 368.3 63.5 0)
+    (property "Datasheet" "~" (at 38.1 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3a00aef5-5571-42ef-89a7-5e63112ae140))
-    (pin "MP1" (uuid 1470f951-66a6-4b1b-a72a-e68f447e5bd5))
-    (pin "MP2" (uuid 94cf3ed8-9446-4293-aa6e-456afefb929c))
-    (pin "1" (uuid 000e5f7c-8ac0-4775-be38-ba8c9232fa9d))
+    (pin "MP1" (uuid 2b25c475-7d41-4f83-8cd1-8063a6461b82))
+    (pin "1" (uuid a710196b-4bd6-45bf-b7cd-ef896552e78b))
+    (pin "MP2" (uuid 44e67d66-cd06-46e7-8587-2fc2debc1c11))
+    (pin "2" (uuid b44b6d6a-4df8-40ff-b4a7-770946dd0398))
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J8") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -5088,7 +5088,7 @@
   (symbol (lib_id "ProjectEV:R") (at 147.32 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a99779b1-2b5b-4653-bf99-bd555f9fe42e)
-    (property "Reference" "R4" (at 148.59 99.06 0)
+    (property "Reference" "R7" (at 148.59 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 148.59 101.6 0)
@@ -5108,7 +5108,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R4") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5117,7 +5117,7 @@
   (symbol (lib_id "ProjectEV:C") (at 238.76 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac742991-aeab-4bc9-ba6b-56f4596eeaee)
-    (property "Reference" "C5" (at 241.3 205.74 0)
+    (property "Reference" "C7" (at 241.3 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 241.3 208.28 0)
@@ -5137,7 +5137,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5146,7 +5146,7 @@
   (symbol (lib_id "Device:LED") (at 259.08 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af322234-c142-4ca6-bcf7-6236261bdf87)
-    (property "Reference" "D2" (at 262.89 110.8075 90)
+    (property "Reference" "D6" (at 262.89 110.8075 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 262.89 113.3475 90)
@@ -5163,35 +5163,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "D2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 368.3 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b3cb3559-b298-4d99-809b-b2c312787782)
-    (property "Reference" "J10" (at 370.84 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SM02B-PASS-1-TB" (at 370.84 142.24 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 368.3 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 368.3 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 19464bc1-f753-4a4c-ab33-0877a32ae7f2))
-    (pin "MP1" (uuid 116aa362-0422-47b8-8998-a4ec7fcf72ea))
-    (pin "MP2" (uuid 87450018-c75b-426b-8b91-1d98e93a7c80))
-    (pin "1" (uuid 37e5bda0-2e07-4c76-9a3a-f4b55a322e89))
-    (instances
-      (project "Latch-Circuit"
-        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J10") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -5200,7 +5172,7 @@
   (symbol (lib_id "power:GND") (at 360.68 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b58b43a9-198a-4f7c-baf7-0f05d4a1957b)
-    (property "Reference" "#PWR040" (at 354.33 104.14 0)
+    (property "Reference" "#PWR036" (at 354.33 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 356.87 104.14 90)
@@ -5216,7 +5188,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -5225,7 +5197,7 @@
   (symbol (lib_id "power:GND") (at 45.72 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6dbebc8-c3e3-40eb-8409-e4a63a242875)
-    (property "Reference" "#PWR016" (at 52.07 116.84 0)
+    (property "Reference" "#PWR015" (at 52.07 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 116.84 90)
@@ -5241,7 +5213,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5250,7 +5222,7 @@
   (symbol (lib_id "power:GND") (at 368.3 54.61 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba96bd5d-4f46-4502-a9e2-a9c56eb75fbf)
-    (property "Reference" "#PWR028" (at 368.3 48.26 0)
+    (property "Reference" "#PWR038" (at 368.3 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.3 49.53 0)
@@ -5266,7 +5238,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5275,7 +5247,7 @@
   (symbol (lib_id "ProjectEV:Transistor_PJA3439-AU_R1_000A1") (at 304.8 175.26 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd62952a-46de-410f-8128-8daa66c59a2d)
-    (property "Reference" "Q9" (at 304.8 166.37 90)
+    (property "Reference" "Q13" (at 304.8 166.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJA3439-AU_R1_000A1" (at 304.8 168.91 90)
@@ -5293,7 +5265,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q9") (unit 1)
+          (reference "Q13") (unit 1)
         )
       )
     )
@@ -5302,7 +5274,7 @@
   (symbol (lib_id "power:+12V") (at 233.68 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5171d7e-1854-4cdd-b85e-411225a8aee5)
-    (property "Reference" "#PWR020" (at 233.68 100.33 0)
+    (property "Reference" "#PWR025" (at 233.68 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 233.68 91.44 0)
@@ -5318,7 +5290,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5352,7 +5324,7 @@
   (symbol (lib_id "power:GND") (at 360.68 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb33c93b-7b19-4207-a63b-63ba5e95eb11)
-    (property "Reference" "#PWR042" (at 354.33 142.24 0)
+    (property "Reference" "#PWR037" (at 354.33 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 356.87 142.24 90)
@@ -5368,7 +5340,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -5377,7 +5349,7 @@
   (symbol (lib_id "ProjectEV:R") (at 287.02 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf93807e-c6d6-462a-aab4-b8adeb648435)
-    (property "Reference" "R15" (at 288.29 205.74 0)
+    (property "Reference" "R27" (at 288.29 205.74 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 288.29 208.28 0)
@@ -5397,7 +5369,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R15") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -5406,7 +5378,7 @@
   (symbol (lib_id "power:GND") (at 38.1 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0041bbb-8f4c-4846-b78a-2cdd6821a738)
-    (property "Reference" "#PWR023" (at 38.1 137.16 0)
+    (property "Reference" "#PWR07" (at 38.1 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 138.43 0)
@@ -5422,7 +5394,35 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 38.1 38.1 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d0c9f4ae-43c6-4fc3-b6c4-da926cacf6d2)
+    (property "Reference" "J1" (at 35.56 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BM02B-PASS-1-TF" (at 35.56 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 38.1 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "MP1" (uuid 978681f2-db3d-4b57-951f-a62ae1b7e437))
+    (pin "1" (uuid 599dbd13-fa29-4dc4-b238-18c71ac780bf))
+    (pin "MP2" (uuid d0efc5d4-9bc0-4e9b-93d5-0b5c7f9a371a))
+    (pin "2" (uuid 7e809686-0d32-482e-834c-dea011de9d75))
+    (instances
+      (project "Latch-Circuit"
+        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -5431,7 +5431,7 @@
   (symbol (lib_id "power:GND") (at 304.8 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0da908f-d624-4ffa-8059-e62db79b0c66)
-    (property "Reference" "#PWR018" (at 304.8 219.71 0)
+    (property "Reference" "#PWR033" (at 304.8 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 218.44 0)
@@ -5447,7 +5447,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -5508,7 +5508,7 @@
   (symbol (lib_id "ProjectEV:R") (at 259.08 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d45f514c-61ff-47e6-b77b-d2244a0ee12b)
-    (property "Reference" "R29" (at 260.35 99.06 0)
+    (property "Reference" "R20" (at 260.35 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 260.35 101.6 0)
@@ -5528,7 +5528,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R29") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5537,7 +5537,7 @@
   (symbol (lib_id "ProjectEV:Transistor_2N7002K-AU") (at 106.68 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5f46f97-e941-4583-b43f-3748b1283ff2)
-    (property "Reference" "Q4" (at 101.6 120.65 0)
+    (property "Reference" "Q2" (at 101.6 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002K-AU" (at 92.71 123.19 0)
@@ -5555,7 +5555,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q4") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -5592,7 +5592,7 @@
   (symbol (lib_id "ProjectEV:Transistor_PJA3439-AU_R1_000A1") (at 165.1 99.06 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db5645f6-927a-4cdf-8b43-3f2d2f945d7b)
-    (property "Reference" "Q2" (at 165.1 90.17 90)
+    (property "Reference" "Q5" (at 165.1 90.17 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJA3439-AU_R1_000A1" (at 165.1 92.71 90)
@@ -5610,35 +5610,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "Q2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ProjectEV:Connector_SM02B-PASS-1-TB") (at 38.1 114.3 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid df4333a2-833a-49b1-bc0e-763574ae6274)
-    (property "Reference" "J1" (at 35.56 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SM02B-PASS-1-TB" (at 35.56 116.84 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "ProjectEV:Connector_SM02B-PASS-1-TB" (at 38.1 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 38.1 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 6edea852-6798-47ce-ad79-37e133d4fdd9))
-    (pin "MP1" (uuid 003e3b40-d6a8-468b-83b2-6195e72bbd92))
-    (pin "MP2" (uuid 8eaa94b7-0a90-46a1-be2b-639d065a2861))
-    (pin "1" (uuid 179330bf-f255-4c77-bccc-2bd0d896b8e4))
-    (instances
-      (project "Latch-Circuit"
-        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "J1") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -5647,7 +5619,7 @@
   (symbol (lib_id "ProjectEV:C") (at 154.94 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfbb1815-fb33-4460-b468-da87979446dc)
-    (property "Reference" "C11" (at 157.48 99.06 0)
+    (property "Reference" "C4" (at 157.48 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 157.48 101.6 0)
@@ -5667,7 +5639,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C11") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5676,7 +5648,7 @@
   (symbol (lib_id "ProjectEV:D_1N4448WQ-7-F") (at 250.19 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0a920a5-8915-4dab-bab1-5643c452ca34)
-    (property "Reference" "D7" (at 250.19 54.61 0)
+    (property "Reference" "D5" (at 250.19 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4448WQ-7-F" (at 250.19 57.15 0)
@@ -5693,7 +5665,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -5728,7 +5700,7 @@
   (symbol (lib_id "ProjectEV:R") (at 259.08 177.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2300b23-159e-44be-9654-96649e6f7f98)
-    (property "Reference" "R30" (at 260.35 175.26 0)
+    (property "Reference" "R21" (at 260.35 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 260.35 177.8 0)
@@ -5748,7 +5720,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R30") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -5757,7 +5729,7 @@
   (symbol (lib_id "power:+12V") (at 233.68 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e27de041-aeee-42e5-afc9-34d0626558de)
-    (property "Reference" "#PWR06" (at 233.68 176.53 0)
+    (property "Reference" "#PWR026" (at 233.68 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 233.68 167.64 0)
@@ -5773,7 +5745,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5782,7 +5754,7 @@
   (symbol (lib_id "power:GND") (at 368.3 130.81 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2a73102-4272-48ad-9d0f-7a398579cda8)
-    (property "Reference" "#PWR032" (at 368.3 124.46 0)
+    (property "Reference" "#PWR042" (at 368.3 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 368.3 125.73 0)
@@ -5798,7 +5770,35 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "ProjectEV:Connector_BM02B-PASS-1-TF") (at 368.3 101.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e482e52d-8560-47cb-9c8b-b711b4512b51)
+    (property "Reference" "J9" (at 370.84 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BM02B-PASS-1-TF" (at 370.84 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ProjectEV:Connector_BM02B-PASS-1-TF" (at 368.3 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 368.3 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "MP1" (uuid 89d4cfca-b3ed-40a5-b5b2-7913aee8e663))
+    (pin "1" (uuid d1d98af8-71a2-4697-8ae4-eb05f2fb6c02))
+    (pin "MP2" (uuid bd9db305-5672-4189-b0ff-317f242ceac5))
+    (pin "2" (uuid a7578692-699d-4a22-96cb-56571a8edbdd))
+    (instances
+      (project "Latch-Circuit"
+        (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -5807,7 +5807,7 @@
   (symbol (lib_id "ProjectEV:R") (at 322.58 182.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e53c3bd1-7d00-49f6-9d93-e92a2a4ca34e)
-    (property "Reference" "R28" (at 322.58 175.26 90)
+    (property "Reference" "R31" (at 322.58 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 322.58 177.8 90)
@@ -5827,7 +5827,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R28") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -5836,7 +5836,7 @@
   (symbol (lib_id "power:GND") (at 259.08 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e69961df-f0e8-469c-9223-01314d2049ca)
-    (property "Reference" "#PWR037" (at 259.08 123.19 0)
+    (property "Reference" "#PWR030" (at 259.08 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 121.92 0)
@@ -5852,7 +5852,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5861,7 +5861,7 @@
   (symbol (lib_id "ProjectEV:R") (at 241.3 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8fe7180-07c4-4a37-ba4d-f60cdaa98a40)
-    (property "Reference" "R21" (at 242.57 99.06 0)
+    (property "Reference" "R16" (at 242.57 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 242.57 101.6 0)
@@ -5881,7 +5881,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R21") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -5890,7 +5890,7 @@
   (symbol (lib_id "ProjectEV:R") (at 182.88 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eda3e662-31e4-4e47-88c4-f3f6cd4d56e7)
-    (property "Reference" "R27" (at 182.88 99.06 90)
+    (property "Reference" "R11" (at 182.88 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 182.88 101.6 90)
@@ -5910,7 +5910,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R27") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5919,7 +5919,7 @@
   (symbol (lib_id "ProjectEV:R") (at 287.02 198.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2d96715-5e6f-483f-94b2-0af94ea2fc8e)
-    (property "Reference" "R8" (at 288.29 195.58 0)
+    (property "Reference" "R26" (at 288.29 195.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100" (at 288.29 198.12 0)
@@ -5939,7 +5939,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "R8") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -5948,7 +5948,7 @@
   (symbol (lib_id "ProjectEV:C") (at 294.64 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4e3b91b-e7c1-4cbb-9d34-9df6633e118c)
-    (property "Reference" "C9" (at 297.18 99.06 0)
+    (property "Reference" "C8" (at 297.18 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 297.18 101.6 0)
@@ -5968,7 +5968,7 @@
     (instances
       (project "Latch-Circuit"
         (path "/32b50168-feb5-4f60-b0c0-d9d9b13c9014"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )

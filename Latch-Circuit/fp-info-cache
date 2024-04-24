@@ -1,4 +1,4 @@
-22602490327554395
+22605918194607771
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -81690,12 +81690,26 @@ Connector_34691-0200
 20
 20
 ProjectEV
+Connector_B2P-VH
+JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
+connector JST VH vertical
+0
+2
+2
+ProjectEV
 Connector_BM02B-PASS-1-TF
 
 
 0
 4
 4
+ProjectEV
+Connector_BM03B-PASS-1-TF
+
+
+0
+5
+5
 ProjectEV
 Connector_MX150L_19427-0017
 
