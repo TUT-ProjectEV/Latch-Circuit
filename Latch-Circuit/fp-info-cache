@@ -1,4 +1,4 @@
-22611064072077478
+22619269292071933
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -81921,6 +81921,13 @@ D_SOT-23_BZX84-C9V1,215
 6
 3
 ProjectEV
+Fiducial_JLCPCB
+
+
+0
+1
+0
+ProjectEV
 Fuse_0ABB
 
 
@@ -82018,6 +82025,13 @@ L_TYS6045xxx
 0
 2
 2
+ProjectEV
+Logo_JLCPCB_40x20.9mm
+
+
+0
+0
+0
 ProjectEV
 Logo_TUT_10x10mm
 
@@ -82175,6 +82189,13 @@ SOT TO_SOT_SMD
 ProjectEV
 Package_SOT-23-5_MCP6001
 SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
+ProjectEV
+Package_SOT-23-5_NCV20071SN2T1G
+
 SOT TO_SOT_SMD
 0
 5
@@ -82424,6 +82445,13 @@ Terminal_01x04_0389690004
 0
 4
 4
+ProjectEV
+ToolingHole_JLCPCB
+
+
+0
+0
+0
 ProjectEV
 Transformer_CEEH96B
 
