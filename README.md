@@ -9,7 +9,7 @@
 - Kicad 7.0
 ### Libraries
 - ProjectEV-Kicad-Library
- - v7.0
+    - v7.0
 
 ## Usage
 - Vsupply: 12V
