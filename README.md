@@ -17,7 +17,7 @@
 
 ## Features
 - MOSFETによるラッチング、リレードライブ
-- AMS, BSPD, IMD信号入力はMOSFETのゲートであるため、ロジックレベルは3.3V~20Vまで対応可能
+- AMS, BSPD, IMD信号入力はMOSFETのゲートであるため、ロジックレベルは3.3V~12Vまで対応可能
 
 ## Reference
 - ["Reference Site Name"]("Reference URL")
