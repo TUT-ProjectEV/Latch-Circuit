@@ -1,5 +1,8 @@
 # Latch-Circuit
 
+##Version
+- v1.1
+
 ## Overview
 - AMS, BSPD, IMDからの信号をモニタ・ラッチしてSDN回路に接続されるリレーをドライブする回路
 - AMS, BSPD, IMDのインジケータドライブ回路
