@@ -1,27 +1,29 @@
-# "Repository name"
+# Latch-Circuit
 
 ## Overview
-- "This Repository Overview"
+- AMS, BSPD, IMDからの信号をモニタ・ラッチしてSDN回路に接続されるリレーをドライブする回路
+- AMS, BSPD, IMDのインジケータドライブ回路
 
 ## Requirement
 ### Development
-- "Development Tool Name"
-### Boards
-- "Platform Name, Board Name, etc..."
+- Kicad 7.0
 ### Libraries
-- "Library Name and Version used in this repository"
+- ProjectEV-Kicad-Library
+    - v7.0
 
 ## Usage
-- "How to Use, SIMPLE Explanation"
+- Vsupply: 12V
+- AMS, BSPD, IMD Signal Input Level: L=0V, H=12V
 
 ## Features
-- "Detailed Description"
+- MOSFETによるラッチング、リレードライブ
+- AMS, BSPD, IMD信号入力はMOSFETのゲートであるため、ロジックレベルは3.3V~12Vまで対応可能
 
 ## Reference
 - ["Reference Site Name"]("Reference URL")
 
 ## Author
-- ["Your Name"]("Your GitHub, Twitter, etc... Account URL")
+- [ST04-tkmr](https://github.com/ST04-tkmr)
 
 ## License
-- Copyright (c) 2023 東京工科大学 ProjectEV [Released under the MIT license]("License URL")
+- Copyright (c) 2024 東京工科大学 ProjectEV
