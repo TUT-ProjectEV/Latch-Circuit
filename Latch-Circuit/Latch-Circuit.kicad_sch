@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "32b50168-feb5-4f60-b0c0-d9d9b13c9014")
 	(paper "A3")
+	(title_block
+		(date "2025-03-23")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -358,6 +361,312 @@
 				)
 			)
 			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_1_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_2_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_2_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MountingHole_Pad_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_3_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_3_1_1"
 				(pin input line
 					(at 0 -2.54 90)
 					(length 2.54)
@@ -2675,9 +2984,9 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2775,8 +3084,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2795,9 +3104,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2871,8 +3180,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2954,7 +3263,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6818,7 +7127,7 @@
 		)
 		(uuid ffaed6c1-8e98-4914-8a58-753d1d8a43b4)
 	)
-	(text "AMSのラッチ回路を例に、動作を説明する。\n\nTO_AMS_RST_SW, AMS_RELAY_DRIVE間にはプッシュスイッチが実装される。他2つも同様。\n\nセット動作\nLATCH CIRCUITにHIGHが入力されているとき、\nプッシュスイッチを押すと一時的にAMS_RELAY_DRIVEがHIGHとなる。\nそして、LATCH CIRCUIT下側Nch MOSFETのゲートがHIGHになると、上側Pch MOSFETのゲートがLOWになる。\n一度Pch MOSFETをONしてしまえば、AMS_RELAY_DRIVEはPch MOSFETによりHIGHとなるので、ON状態を保持することができる。\n\nリセット動作\nLATCH CIRCUITの入力をLOWにすることで、リセットされる。\n再び入力がHIGHになったとしても、Pch MOSFETはOFF状態であるため、AMS_RELAY_DRIVEはLOWのままとなる。\n\nセット、リセット動作はAMS, BSPD, IMDのラッチ回路すべて同様である。"
+	(text "BMSのラッチ回路を例に、動作を説明する。\n\nTO_BMS_RST_SW, BMS_RELAY_DRIVE間にはプッシュスイッチが実装される。他2つも同様。\n\nセット動作\nLATCH CIRCUITにHIGHが入力されているとき、\nプッシュスイッチを押すと一時的にBMS_RELAY_DRIVEがHIGHとなる。\nそして、LATCH CIRCUIT下側Nch MOSFETのゲートがHIGHになると、上側Pch MOSFETのゲートがLOWになる。\n一度Pch MOSFETをONしてしまえば、BMS_RELAY_DRIVEはPch MOSFETによりHIGHとなるので、ON状態を保持することができる。\n\nリセット動作\nLATCH CIRCUITの入力をLOWにすることで、リセットされる。\n再び入力がHIGHになったとしても、Pch MOSFETはOFF状態であるため、BMS_RELAY_DRIVEはLOWのままとなる。\n\nセット、リセット動作はBMS, BSPD, IMDのラッチ回路すべて同様である。"
 		(exclude_from_sim no)
 		(at 101.6 182.88 0)
 		(effects
@@ -6926,7 +7235,7 @@
 		)
 		(uuid "03aeb193-2fc5-483a-ac08-98451f3c4dfe")
 	)
-	(label "AMS_RELAY_DRIVE"
+	(label "BMS_RELAY_DRIVE"
 		(at 180.34 96.52 0)
 		(effects
 			(font
@@ -6956,7 +7265,7 @@
 		)
 		(uuid "194dfcb6-319b-498e-978f-f999d7917008")
 	)
-	(label "AMS_LED_K"
+	(label "BMS_LED_K"
 		(at 350.52 66.04 0)
 		(effects
 			(font
@@ -6966,7 +7275,7 @@
 		)
 		(uuid "1e697ede-046a-4fb6-a84d-473ee94b4c00")
 	)
-	(label "AMS_LED_A"
+	(label "BMS_LED_A"
 		(at 106.68 238.76 0)
 		(effects
 			(font
@@ -7006,7 +7315,7 @@
 		)
 		(uuid "2d7fa5f5-1578-4119-a2fa-19d7b97735e9")
 	)
-	(label "TO_AMS_RST_SW"
+	(label "TO_BMS_RST_SW"
 		(at 45.72 152.4 0)
 		(effects
 			(font
@@ -7026,7 +7335,7 @@
 		)
 		(uuid "3cf1b666-bae6-4d06-b501-5e217bc8da9a")
 	)
-	(label "TO_AMS_RST_SW"
+	(label "TO_BMS_RST_SW"
 		(at 127 111.76 0)
 		(effects
 			(font
@@ -7036,7 +7345,7 @@
 		)
 		(uuid "4e83426b-4b01-4cf9-98b8-980c7593e328")
 	)
-	(label "AMS_LED_A"
+	(label "BMS_LED_A"
 		(at 350.52 63.5 0)
 		(effects
 			(font
@@ -7076,7 +7385,7 @@
 		)
 		(uuid "5a84c406-832a-4e41-8c16-b4dd0b0a7340")
 	)
-	(label "AMS_RELAY_DRIVE"
+	(label "BMS_RELAY_DRIVE"
 		(at 45.72 154.94 0)
 		(effects
 			(font
@@ -7086,7 +7395,7 @@
 		)
 		(uuid "63d56f34-976e-4164-83b7-242e02e90e45")
 	)
-	(label "AMS_RELAY_DRIVE"
+	(label "BMS_RELAY_DRIVE"
 		(at 40.64 256.54 0)
 		(effects
 			(font
@@ -7096,7 +7405,7 @@
 		)
 		(uuid "6792119f-4164-46d1-920c-84efa8729431")
 	)
-	(label "AMS_LED_K"
+	(label "BMS_LED_K"
 		(at 106.68 241.3 0)
 		(effects
 			(font
@@ -7136,7 +7445,7 @@
 		)
 		(uuid "7592fdd8-81d2-4f7b-9651-0deb2ea3131b")
 	)
-	(label "AMS_STATUS"
+	(label "BMS_STATUS"
 		(at 45.72 76.2 0)
 		(effects
 			(font
@@ -7216,7 +7525,7 @@
 		)
 		(uuid "aac426a5-475b-4f49-89f7-5aa1751564b9")
 	)
-	(label "AMS_RELAY_DRIVE"
+	(label "BMS_RELAY_DRIVE"
 		(at 160.02 48.26 0)
 		(effects
 			(font
@@ -7286,7 +7595,7 @@
 		)
 		(uuid "e73b584a-8d9b-4ee4-ad9d-d83914fc49a2")
 	)
-	(label "AMS_STATUS"
+	(label "BMS_STATUS"
 		(at 66.04 127 0)
 		(effects
 			(font
@@ -7507,7 +7816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 342.9 245.11 0)
 			(effects
 				(font
@@ -7872,7 +8181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 29.21 0)
 			(effects
 				(font
@@ -7938,7 +8247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 76.2 231.14 0)
 			(effects
 				(font
@@ -8386,7 +8695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 201.93 0)
 			(effects
 				(font
@@ -8587,7 +8896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 96.52 236.22 0)
 			(effects
 				(font
@@ -8653,7 +8962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 269.24 0)
 			(effects
 				(font
@@ -8953,7 +9262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 125.73 0)
 			(effects
 				(font
@@ -9019,7 +9328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 116.84 0)
 			(effects
 				(font
@@ -9085,7 +9394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -9151,7 +9460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 181.61 0)
 			(effects
 				(font
@@ -9217,7 +9526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 96.52 96.52 0)
 			(effects
 				(font
@@ -9517,7 +9826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 45.72 40.64 0)
 			(effects
 				(font
@@ -9813,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 55.88 0)
 			(effects
 				(font
@@ -9959,7 +10268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 163.83 0)
 			(effects
 				(font
@@ -10025,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 240.03 0)
 			(effects
 				(font
@@ -10091,7 +10400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96.52 256.54 0)
 			(effects
 				(font
@@ -10231,7 +10540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 246.38 213.36 0)
 			(effects
 				(font
@@ -10531,7 +10840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -10735,7 +11044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 92.71 0)
 			(effects
 				(font
@@ -10880,7 +11189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 248.92 256.54 0)
 			(effects
 				(font
@@ -10947,7 +11256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 74.93 0)
 			(effects
 				(font
@@ -11014,7 +11323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 151.13 0)
 			(effects
 				(font
@@ -11310,7 +11619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 137.16 0)
 			(effects
 				(font
@@ -11592,7 +11901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -11658,7 +11967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 219.71 0)
 			(effects
 				(font
@@ -11956,7 +12265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 113.03 0)
 			(effects
 				(font
@@ -12177,7 +12486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 49.53 0)
 			(effects
 				(font
@@ -12397,7 +12706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -12622,7 +12931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 45.72 81.28 0)
 			(effects
 				(font
@@ -12688,7 +12997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 246.38 137.16 0)
 			(effects
 				(font
@@ -12985,7 +13294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 256.54 0)
 			(effects
 				(font
@@ -13130,7 +13439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 256.54 193.04 0)
 			(effects
 				(font
@@ -13275,7 +13584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 90.17 0)
 			(effects
 				(font
@@ -13341,7 +13650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 105.41 0)
 			(effects
 				(font
@@ -13407,7 +13716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 152.4 231.14 0)
 			(effects
 				(font
@@ -13473,7 +13782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 320.04 116.84 0)
 			(effects
 				(font
@@ -13618,7 +13927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 248.92 236.22 0)
 			(effects
 				(font
@@ -13684,7 +13993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 67.31 0)
 			(effects
 				(font
@@ -13938,6 +14247,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_Pad_3")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 381 229.87 0)
 		(unit 1)
@@ -14049,7 +14359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -14115,7 +14425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 58.42 0)
 			(effects
 				(font
@@ -14415,7 +14725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 172.72 236.22 0)
 			(effects
 				(font
@@ -14781,7 +15091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 238.76 48.26 0)
 			(effects
 				(font
@@ -15460,7 +15770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 307.34 137.16 0)
 			(effects
 				(font
@@ -15677,7 +15987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 48.26 0)
 			(effects
 				(font
@@ -16127,7 +16437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 45.72 116.84 0)
 			(effects
 				(font
@@ -16273,7 +16583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 54.61 0)
 			(effects
 				(font
@@ -16339,7 +16649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 228.6 269.24 0)
 			(effects
 				(font
@@ -16480,7 +16790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 238.76 96.52 0)
 			(effects
 				(font
@@ -16642,6 +16952,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_Pad_1")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 355.6 229.87 0)
 		(unit 1)
@@ -16911,7 +17222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 320.04 193.04 0)
 			(effects
 				(font
@@ -17056,7 +17367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 143.51 0)
 			(effects
 				(font
@@ -17198,7 +17509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 307.34 213.36 0)
 			(effects
 				(font
@@ -17220,6 +17531,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_Pad_2")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 342.9 229.87 0)
 		(unit 1)
@@ -17866,7 +18178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 48.26 0)
 			(effects
 				(font
@@ -17932,7 +18244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 228.6 231.14 0)
 			(effects
 				(font
@@ -18294,7 +18606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 238.76 172.72 0)
 			(effects
 				(font
@@ -18361,7 +18673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 130.81 0)
 			(effects
 				(font
@@ -18578,7 +18890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 256.54 116.84 0)
 			(effects
 				(font
@@ -19173,7 +19485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 116.84 0)
 			(effects
 				(font
@@ -19552,7 +19864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 269.24 0)
 			(effects
 				(font
