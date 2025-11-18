@@ -299,7 +299,7 @@
 		(path "/ab7e22fd-feea-49bd-a4b9-837d3937920e")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -507,7 +507,7 @@
 		(path "/50343867-7bf5-4028-b04e-16fd7f1104d4")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -1330,7 +1330,7 @@
 		(path "/6c2504fa-b91f-4980-90a9-6e10facd26f6")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3 -3.05)
 			(end -2.8 -2.65)
@@ -2123,7 +2123,7 @@
 		(path "/c033d0ba-df12-4b86-b901-c9306ac85eba")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.95 -3.5)
 			(end -3.35 -3.5)
@@ -2339,7 +2339,7 @@
 		(path "/c0689814-75bc-433e-acdb-f73267c17ab6")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.06 -2.11)
 			(end -0.86 -2.11)
@@ -2888,7 +2888,7 @@
 		(path "/2bfaf2ea-bea6-4a99-8cdc-a6d3d8298b56")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.75 -1.55)
 			(end -1.45 -1.55)
@@ -3154,7 +3154,7 @@
 		(path "/50f973e5-5740-461a-ab74-0e9958581f1a")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -8.1 -3.5)
 			(end -5.3 -3.5)
@@ -3856,7 +3856,7 @@
 		(path "/caae9195-5cdd-4abc-ae20-cc833ea926a9")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.8 -1)
 			(end -2.8 1)
@@ -4013,7 +4013,7 @@
 		(path "/ba5a026a-5824-4128-bfb6-5b4e26940972")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -5.1 -2)
 			(end -2.3 -2)
@@ -4353,7 +4353,7 @@
 		(path "/7f952719-2bf1-406e-9313-4f4dbbc41569")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.75 -1.55)
 			(end -1.45 -1.55)
@@ -4619,7 +4619,7 @@
 		(path "/2e3ce5eb-9c20-44ef-a131-0c4108803c2e")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.85 0.8)
 			(end 1 0.8)
@@ -4998,7 +4998,7 @@
 		(path "/6024b511-cbe2-46e7-bb36-53b6a8e2c137")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.75 -1.55)
 			(end -1.45 -1.55)
@@ -5264,7 +5264,7 @@
 		(path "/fe52f276-2282-4b01-99e0-bc870b20a264")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -5472,7 +5472,7 @@
 		(path "/85b77e68-cf89-4869-b5c1-82c3771014d7")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -5892,7 +5892,7 @@
 		(path "/e66dc378-84e2-4508-93b2-620fb9143c7b")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -6099,7 +6099,7 @@
 		(path "/430b2265-1fe3-44df-9051-e76dcbb2c857")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.65 -2.65)
 			(end 2.25 -2.65)
@@ -6427,7 +6427,7 @@
 		(path "/664f0aca-898e-4017-a635-fcab2888590d")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.6 -3.5)
 			(end -3.8 -3.5)
@@ -7101,7 +7101,7 @@
 		(path "/89914e0a-15fb-4d9d-88ce-b8a0f21d362c")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.95 -3.5)
 			(end -3.35 -3.5)
@@ -7321,7 +7321,7 @@
 		(path "/89f10ac1-15d0-4b7c-9fdc-8bca59c2eac6")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
@@ -7527,7 +7527,7 @@
 		(path "/18c76cfe-fe25-468d-aeb1-94aeee653de3")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.55 -0.65)
 			(end 1.55 0.65)
@@ -7699,7 +7699,7 @@
 		(path "/e300e416-60d9-414f-83cd-6e8043a1115a")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.95 -3.5)
 			(end -3.35 -3.5)
@@ -7932,7 +7932,7 @@
 		(path "/3436f80f-dcae-44f5-af1f-72f90f06b001")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.2 0.5)
 			(end -0.2 0.5)
@@ -8078,7 +8078,7 @@
 		(path "/7698ace3-c1ef-40cd-a217-18598f8bc426")
 		(sheetname "/")
 		(sheetfile "Latch-Circuit.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.8 -0.6)
 			(end -1.35 -0.6)
