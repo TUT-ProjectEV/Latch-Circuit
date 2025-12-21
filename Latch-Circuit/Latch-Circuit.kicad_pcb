@@ -15845,6 +15845,18 @@
 			)
 		)
 	)
+	(gr_text "Latch-Circuit-v2.0"
+		(at 30 37.5 0)
+		(layer "B.SilkS")
+		(uuid "93ff5e03-1607-410c-8dab-4bf3d79e6c64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
