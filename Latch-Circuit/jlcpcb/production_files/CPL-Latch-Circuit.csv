@@ -37,3 +37,7 @@ R6,0,R_1608M,35.0,-41.0,0.0,bottom
 R7,100,R_1608M,28.5,-35.0,0.0,bottom
 R8,10k,R_1608M,28.5,-32.0,180.0,bottom
 R9,10k,R_1608M,39.0,-29.0,0.0,bottom
+REF**,MouseBites_5.0mm_OneSide,MouseBites_5.0mm_OneSide,6.0,-27.0,90.0,top
+REF**,MouseBites_5.0mm_OneSide,MouseBites_5.0mm_OneSide,32.0,-6.0,0.0,top
+REF**,MouseBites_5.0mm_OneSide,MouseBites_5.0mm_OneSide,32.0,-48.0,0.0,top
+REF**,MouseBites_5.0mm_OneSide,MouseBites_5.0mm_OneSide,58.0,-27.0,90.0,top
